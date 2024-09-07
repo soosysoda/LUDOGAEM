@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.board{
+    border: 2px solid black;
+    height: 600px;
+    width: 600px;
+    margin: 0px auto;
+    padding: 30px;
+}
+.row{
+    height: 240px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    height: 140px;
+    width: 140px;
+    float: left;
+}
+.border_red{
+    border: 50px solid red;
+}
+.border_green{
+    border: 50px solid green;
+}
+.border_blue{
+    border: 50px solid blue;
+}
+.border_yellow{
+    border: 50px solid yellow;
+}
+.VcellGrid{
+    height: 240px;
+    width: 120px;
+    float: left;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.VcellGrid .cell{
+    border: 1px solid black;
+    height: 38px;
+    width: 38px;
+    float: left;
+    align-content: space-evenly;
+    text-align-last: center;
+}
+.Middlerow{
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    width: 600px;
+}
+.HcellGrid{
+    height: 120px;
+    width: 240px;
+    float: left;
+    grid-template-columns: auto auto auto;
+}
+.HcellGrid .cell{
+    border: 1px solid black;
+    height: 38px;
+    width: 38px;
+    float: left;
+    align-content: space-evenly;
+    text-align-last: center;
+}
+.homeBox{
+    height: 0px;
+    width: 0px;
+    border-left: 60px solid red;
+    border-right: 60px solid yellow;
+    border-top: 60px solid green;
+    border-bottom: 60px solid blue;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    float: left;
+    border-radius: 50%;
+    margin: 10px;
+}
